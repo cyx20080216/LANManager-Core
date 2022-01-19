@@ -1,0 +1,7 @@
+# Ignore hidden directories, such as ".vscode" and ".xmake"
+/.*
+!/.gitignore
+# Ignore build result
+/build
+# Ignore the static link libraries of libpcap and libtins
+/lib/*
