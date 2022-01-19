@@ -38,7 +38,7 @@ void initConfigure()
     //Parse file
     /*
         {
-            "interface":"xxx"
+            "interface":"xxx",
             "gateway":"xxx.xxx.xxx.xxx",
             "setting_table":{
                 "xxx":{
@@ -46,9 +46,7 @@ void initConfigure()
                     "ip":[
                         "xxx.xxx.xxx.xxx",
                         ...
-                    ],
-                    "max_download":xxx,
-                    "max_upload":xxx
+                    ]
                 },
                 ...
             },
