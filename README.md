@@ -1,7 +1,7 @@
 # LANManager-Core
 It is a tool to manage and record the network activity in LAN.
 
-It is based on [libtins](https://github.com/mfontanini/libtins), [gflags](https://github.com/gflags/gflags), [glog](https://github.com/google/glog) and [json](https://github.com/nlohmann/json).
+It is depends on [xmake](https://github.com/xmake-io/xmake), [libtins](https://github.com/mfontanini/libtins), [gflags](https://github.com/gflags/gflags), [glog](https://github.com/google/glog) and [json](https://github.com/nlohmann/json).
 # Build
 1. Build [libtins](https://github.com/mfontanini/libtins) and [libpcap](https://github.com/the-tcpdump-group/libpcap) to get "libtins.a" and "libpcap.a".
 2. Create directory "lib" in the directory of this project.
